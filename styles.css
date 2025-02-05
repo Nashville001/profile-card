@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --background-color: #f0f4fc;
+  --font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background: var(--background-color);
+}
+a{
+    text-decoration: none;
+}
+.card {
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 21.25rem;
+  border-radius: 2rem;
+  padding: 0.35rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.top {
+  position: relative;
+}
+.bottom{
+    padding: 20px;
+}
+.cover-image {
+  background: linear-gradient(indigo, purple);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f0f4fc;
+  padding: 2rem;
+  border-radius: 1.05rem;
+}
+.cover-image p {
+  font-family: var(--font-family);
+}
+.pfp {
+  position: absolute;
+  bottom: -2.5rem;
+  left: 1rem;
+}
+.pfp img {
+  width: 4.5rem;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+}
+.name h2 {
+  margin-bottom: 0;
+  font-family: var(--font-family);  
+  color: #1F242F;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.name p{
+    font-family: var(--font-family);
+    color: #6B7387;
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin: 0;
+}
+.info{
+    width: 17.5rem;
+}
+.info p{
+    font-family: var(--font-family);
+    color: #6B7387;
+    font-size: 0.8rem;
+}
+.linktree a{
+    color: #0571ED;
+    display: flex;
+    align-items: center;
+    column-gap: 0.2rem;
+}
+.linktree a  p{
+    font-family: var(--font-family);
+    font-size: 0.8rem;
+}
+.day{
+    display: flex;
+    column-gap: 0.5rem;
+}
+.date,
+.time{
+    font-family: var(--font-family);
+    color: #6B7387;
+}
