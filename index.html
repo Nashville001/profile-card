@@ -13,28 +13,34 @@
                 <div class="cover-image">
                     <p>JT'S Profile Card</p>
                 </div>
-                <div class="pfp"><img src="./Images/J.T pfp 1.png" alt=""></div>
+                <div class="pfp"><img dat-testid="profilePicture" src="./Images/J.T pfp 1.png" alt=""></div>
             </div>
             <div class="bottom">
-                <div class="name">
-                    <h2>Joshua Temidayo</h2>
+                <div  class="name">
+                    <h2 data-testid="fullName">Joshua Temidayo</h2>
                     <p>@JTtheAcronymic</p>
                 </div>
+                <div class="job">
+                    <p data-testid="jobTitle">Frontend Engineer / Blockchain Developer</p>
+                </div>
                 <div class="info">
-                    <p>Building Websites and Webapps with Seamless User Experience Across Devices</p>
+                    <p data-testid="shortBio">Building Websites and Webapps with Seamless User Experience Across Devices</p>
+                </div>
+                <div class="mail">
+                    <p data-testid="emailAddress">Email: temidayoadeloye.josh@gmail.com</p>
                 </div>
                 <div class="linktree">
-                    <a href="https://linktr.ee/JttheAcronymic" target="_blank">
+                    <a data-testid="socialLinks" href="https://linktr.ee/JttheAcronymic" target="_blank">
                         <img src="./Images/Frame.png" alt="">
                         <p>JT's Linktree</p>
                     </a>
                 </div>
-                <div class="day">
+                <div  class="day">
                     <p class="date">Date: Wed 05/02/2025</p>
-                    <p class="time">11:06:25</p>
+                    <p data-testid="currentTimeUTC" class="time">11:06:25</p>
                 </div>
                 <div class="location">
-
+                    <p data-testid="currentLocation"><img src="./Images/Frame loc.png" alt=""> Oyo State, Nigeria</p>
                 </div>
             </div>
         </div>

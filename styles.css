@@ -97,3 +97,15 @@ a{
     font-family: var(--font-family);
     color: #6B7387;
 }
+.job,
+.mail,
+.location {
+    font-family: var(--font-family);
+    color: #6B7387;
+    font-size: 0.8rem;
+}
+.location p{
+    display: flex;
+    align-items: center;
+    column-gap: 0.2rem;
+}
